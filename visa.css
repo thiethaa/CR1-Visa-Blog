@@ -1,0 +1,43 @@
+body{
+    background: rgb(221, 187, 193);
+}
+
+header h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:purple;
+    text-shadow: 2px 2px black;
+}
+
+.carousel img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: 50%;
+}
+
+.pull-left{
+    margin:15px;
+    padding:10px; 
+}
+
+.desc{
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottom, .blog-footer{
+    margin-left: 30%; 
+}
+
+.sidebar-module img{
+    border-radius: 50%;
+}
+
+.blog-post p, ol, .sidebar-module{
+    text-align: justify;
+    word-spacing: 3px;
+}
+.blog-post p::first-letter, .sidebar-module p::first-letter{
+    font-size: 2em;
+}
